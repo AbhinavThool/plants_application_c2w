@@ -66,6 +66,7 @@ flutter:
     - assets/images/main_plant.png
     - assets/images/plant_1.png
     - assets/images/illustration.png
+    - assets/images/verification_illustration.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

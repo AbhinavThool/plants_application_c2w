@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:plants_application_c2w/screens/login_page.dart';
 
 class GetStartedScreen extends StatefulWidget {
   const GetStartedScreen({super.key});
@@ -77,7 +78,14 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
 
             // button
             GestureDetector(
-              onTap: () {},
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => LoginPageScreen(),
+                  ),
+                );
+                
+              },
               child: Container(
                 decoration: BoxDecoration(
                   gradient: const LinearGradient(
