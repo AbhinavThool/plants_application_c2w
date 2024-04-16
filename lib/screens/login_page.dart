@@ -119,6 +119,7 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
                     }
                   },
                   child: Container(
+                    // margin: EdgeInsets.symmetric(horizontal: 20),
                     decoration: BoxDecoration(
                       gradient: const LinearGradient(
                         colors: [
@@ -137,7 +138,6 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
                       ],
                       borderRadius: BorderRadius.circular(10),
                     ),
-                    padding: const EdgeInsets.symmetric(horizontal: 20),
                     width: 320,
                     height: 50,
                     child: Row(

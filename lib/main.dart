@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plants_application_c2w/screens/get_started.dart';
+import 'package:plants_application_c2w/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GetStartedScreen(),
+      home: HomeScreen(),
       title: 'Plants',
     );
   }

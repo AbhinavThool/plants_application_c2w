@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:plants_application_c2w/screens/home)screen.dart';
+import 'package:plants_application_c2w/screens/home_screen.dart';
 
 class VerificationScreen extends StatefulWidget {
   const VerificationScreen({super.key});
@@ -38,7 +38,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
             alignment: Alignment.topRight,
           ),
         ),
-        padding: const EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 30),
         child: Form(
           key: formKey,
           child: Column(
@@ -76,9 +76,10 @@ class _VerificationScreenState extends State<VerificationScreen> {
                   Text(
                     "Verification",
                     style: GoogleFonts.poppins(
-                        fontSize: 30,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
                   ),
                   Spacer()
                 ],
